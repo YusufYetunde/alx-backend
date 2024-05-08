@@ -40,36 +40,36 @@ At the end of this project, you are expected to be able to explain to anyone **w
     "description": "",
     "main": "index.js",
     "scripts": {
-      "lint": "./node_modules/.bin/eslint",
-      "check-lint": "lint [0-9]*.js",
-      "test": "./node_modules/.bin/mocha --require @babel/register --exit",
-      "dev": "nodemon --exec babel-node --presets @babel/preset-env"
+        "lint": "./node_modules/.bin/eslint",
+        "check-lint": "lint [0-9]*.js",
+        "test": "./node_modules/.bin/mocha --require @babel/register --exit",
+        "dev": "nodemon --exec babel-node --presets @babel/preset-env"
     },
-    "author": "",
+    "author": "Yetunde",
     "license": "ISC",
     "dependencies": {
-      "chai-http": "^4.3.0",
-      "express": "^4.17.1",
-      "kue": "^0.11.6",
-      "redis": "^2.8.0"
+        "chai-http": "^4.4.0",
+        "express": "^4.19.2",
+        "kue": "^0.11.6",
+        "redis": "^4.6.13"
     },
     "devDependencies": {
-      "@babel/cli": "^7.8.0",
-      "@babel/core": "^7.8.0",
-      "@babel/node": "^7.8.0",
-      "@babel/preset-env": "^7.8.2",
-      "@babel/register": "^7.8.0",
-      "eslint": "^6.4.0",
-      "eslint-config-airbnb-base": "^14.0.0",
-      "eslint-plugin-import": "^2.18.2",
-      "eslint-plugin-jest": "^22.17.0",
-      "nodemon": "^2.0.2",
-      "chai": "^4.2.0",
-      "mocha": "^6.2.2",
-      "request": "^2.88.0",
-      "sinon": "^7.5.0"
+        "@babel/cli": "^7.24.5",
+        "@babel/core": "^7.24.5",
+        "@babel/node": "^7.23.9",
+        "@babel/preset-env": "^7.24.5",
+        "@babel/register": "^7.23.7",
+        "chai": "^5.1.0",
+        "eslint": "^9.2.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jest": "^28.5.0",
+        "mocha": "^10.4.0",
+        "nodemon": "^3.1.0",
+        "request": "^2.88.2",
+        "sinon": "^17.0.2"
     }
-  }
+}
 
 ```
 
